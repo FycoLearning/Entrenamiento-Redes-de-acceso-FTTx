@@ -26,15 +26,6 @@ img {max-width: 100%;}
 .expand_image_content img {
     max-height: 100%;
 }
-
-.w-300 {width: 300px;}
-
-.center {margin: auto; text-align: center;}
-
-.genially {
-    max-width: 700px;
-    margin: auto;
-}
 /********************************************************************************/
 /* Gráfico 1
 /********************************************************************************/
@@ -454,63 +445,58 @@ img {max-width: 100%;}
 }
 
 #figura4 .esquema .w-content-controler.oficina-central {
-    width: 24%;
-    height: 15.5%;
-    top: 16.4%;
-    left: 2.4%;
-    border-radius: 6px;
+    width: 22%;
+    height: 10%;
+    top: 34%;
+    left: 2%;
 }
 
 #figura4 .esquema .w-content-controler.olt {
-    width: 24%;
-    height: 15.5%;
-    top: 38.2%;
-    left: 2.4%;
-    border-radius: 6px;
+    width: 23%;
+    height: 10%;
+    top: 51%;
+    left: 1.5%;
 }
 
 #figura4 .esquema .w-content-controler.conexion {
-    top: 61%;
-    width: 24%;
-    height: 15.5%;
-    left: 2.4%;
-    border-radius: 6px;
+    width: 23%;
+    height: 10%;
+    top: 69%;
+    left: 1.5%;
 }
 
 #figura4 .esquema .w-content-controler.odn {
-    width: 24%;
+    width: 22%;
     height: 15%;
-    top: 84.4%;
-    left: 26.3%;
-    border-radius: 6px;
+    top: 86%;
+    left: 24.5%;
 }
 
 #figura4 .esquema .w-content-controler.ont {
     width: 18.5%;
     height: 15%;
-    top: 0;
-    right: 0;
+    top: 3%;
+    left: 77%;
 }
 
 #figura4 .esquema .tooltip.drop {
     width: 7%;
     height: 10%;
-    left: 75%;
-    top: 33.3%;
+    left: 71.5%;
+    top: 35.5%;
 }
 
 #figura4 .esquema .tooltip.feeder {
     width: 10%;
     height: 10%;
-    left: 47%;
-    top: 68%;
-}
+    left: 44.5%;
+    top: 71%;}
 
 #figura4 .esquema .tooltip.distribucion {
     width: 10%;
     height: 10%;
-    left: 64%;
-    top: 40%;
+    left: 60.5%;
+    top: 41.5%;
 }
 
 .globo {
@@ -564,6 +550,11 @@ img {max-width: 100%;}
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+#olt .view-first .view-content p {
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
 #conexion .racks {
